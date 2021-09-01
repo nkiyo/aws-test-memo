@@ -1,0 +1,60 @@
+監視
+コスト管理
+
+- AWS System Manager
+- AWS Organization
+- CloudTrail
+- EFS(とS3の違い)
+- (ビッグデータ処理＝)EMR
+- CloudWatch Logs
+- トラフィックのログファイルの監視、保存、アクセス
+- CloudTrail
+- AWS 料金計算ツール
+- 簡易見積もりツール
+- TCO計算ツール
+- マルチ AZ 配置＝RDS
+- AWS Elastic Beanstalk
+- AWS OpsWorks
+- Fargateもサーバーレス
+- Neptune
+- IAM ロールとIAMポリシーの違い
+- 自動バックアップするデータベース？
+- Cognito
+- Well Architected Frameworkの基本原則
+    - 運用上の優秀性
+    - セキュリティ
+    - 信頼性
+    - パフォーマンス効率
+    - コスト最適化
+- リザーブドインスタンス（スタンダード）
+- リザーブドインスタンス（コンバーティブル）
+- スケジュールドリザーブドインスタンス
+- Direct Connect
+- VPCピアリング
+- AWS のコストと使用状況レポート
+- Cost Explorer
+- Billing and Cost Management コンソールダッシュボード
+- CloudWatchエージェント
+- Trusted Adviser
+- Service Catalog
+- NATゲートウェイ
+- WAF
+- Glacier
+    - デフォルトてデータ暗号化
+- AMI
+    - 特定の AWS アカウントと共有することができます。
+- Dedicated host
+- EBS
+    - スナップショットはS3に保存される
+    - スナップショット作成時はデータ整合性を保つため静⽌点を設けることが推奨されている
+- S3
+    - アクセスコントロールポリシー
+    - バケットポリシー
+    - パブリックアクセスブロック
+    - One Zone-IA
+    - Standard-IA
+- VPC
+    - リージョンを指定して設置する
+    - AWSアカウントを登録すると各リージョンにデフォルトVPCが１つずつ自動で設置される
+    - ネットワークACL
+    - ステートレスである
